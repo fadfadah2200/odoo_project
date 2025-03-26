@@ -18,10 +18,10 @@ ORDER BY total_revenue DESC;
 --3. Total Revenue by Branch
 --Calculate the total revenue for each branch .
 
---SELECT name, SUM(price_total) AS total_revenue
---FROM sale_report
---GROUP BY name
---ORDER BY total_revenue DESC;
+SELECT name, SUM(price_total) AS total_revenue
+FROM sale_report
+GROUP BY name
+ORDER BY total_revenue DESC;
 
 ---------------------------------------------------------------------------------------------------------------
 --4. Average Sale Price per Product
